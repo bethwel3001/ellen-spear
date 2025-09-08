@@ -77,3 +77,16 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// Add to your existing JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+    const path = window.location.pathname;
+    const page = path.split("/").pop();
+    
+    if (page === "careers.html") {
+        document.body.classList.add("careers-page");
+    } 
+    else if (page === "about.html" || page === "contact.html") {
+        document.body.classList.add("light-background-page");
+    }
+});
