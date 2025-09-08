@@ -1,0 +1,339 @@
+/* Mobile Patrol Page Styles */
+.mobile-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://plus.unsplash.com/premium_photo-1681487814165-018814e29155?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    padding: 120px 0 80px;
+    color: white;
+    text-align: center;
+}
+
+.mobile-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #ecc94b;
+}
+
+.mobile-hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Intro Section */
+.intro-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.intro-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4a5568;
+}
+
+/* Benefits Section */
+.benefits-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: #1a365d;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #ecc94b;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.benefit-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.benefit-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #1a365d;
+    color: #ecc94b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 28px;
+}
+
+.benefit-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #1a365d;
+}
+
+.benefit-card p {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Ideal For Section */
+.ideal-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.ideal-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ideal-content h3 {
+    font-size: 1.5rem;
+    color: #1a365d;
+    margin-bottom: 20px;
+}
+
+.ideal-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.ideal-item {
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.ideal-item i {
+    color: #ecc94b;
+    font-size: 18px;
+    margin-right: 15px;
+    min-width: 25px;
+}
+
+/* Strategy Section */
+.strategy-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.strategy-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.strategy-content h3 {
+    font-size: 1.5rem;
+    color: #1a365d;
+    margin-bottom: 20px;
+}
+
+.strategy-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4a5568;
+    margin-bottom: 20px;
+}
+
+/* Personnel Section */
+.personnel-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.personnel-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.personnel-content h3 {
+    font-size: 1.5rem;
+    color: #1a365d;
+    margin-bottom: 20px;
+}
+
+.personnel-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4a5568;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+    color: white;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-content p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #ecc94b;
+    color: #1a365d;
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #d9b123;
+    transform: translateY(-3px);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .mobile-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .section-title h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-hero {
+        padding: 100px 0 60px;
+    }
+    
+    .mobile-hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .mobile-hero p {
+        font-size: 1.1rem;
+    }
+    
+    .intro-section,
+    .benefits-section,
+    .ideal-section,
+    .strategy-section,
+    .personnel-section,
+    .cta-section {
+        padding: 60px 0;
+    }
+    
+    .section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .benefit-card {
+        padding: 25px;
+    }
+    
+    .benefit-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile-hero {
+        padding: 80px 0 50px;
+    }
+    
+    .mobile-hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .mobile-hero p {
+        font-size: 1rem;
+    }
+    
+    .intro-section,
+    .benefits-section,
+    .ideal-section,
+    .strategy-section,
+    .personnel-section,
+    .cta-section {
+        padding: 50px 0;
+    }
+    
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+    
+    .benefit-card {
+        padding: 20px;
+    }
+    
+    .benefit-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    .cta-content h2 {
+        font-size: 1.8rem;
+    }
+    
+    .cta-btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+}

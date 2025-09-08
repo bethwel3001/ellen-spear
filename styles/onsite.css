@@ -1,0 +1,339 @@
+/* On-Site Presence Page Styles */
+.onsite-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80') no-repeat center center/cover;
+    padding: 120px 0 80px;
+    color: white;
+    text-align: center;
+}
+
+.onsite-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #ecc94b;
+}
+
+.onsite-hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Intro Section */
+.onsite-intro-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.onsite-intro-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.onsite-intro-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4a5568;
+}
+
+/* Benefits Section */
+.onsite-benefits-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: #1a365d;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #ecc94b;
+}
+
+.onsite-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.onsite-benefit-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.onsite-benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.onsite-benefit-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #1a365d;
+    color: #ecc94b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 28px;
+}
+
+.onsite-benefit-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #1a365d;
+}
+
+.onsite-benefit-card p {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Ideal For Section */
+.onsite-ideal-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.onsite-ideal-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.onsite-ideal-content h3 {
+    font-size: 1.5rem;
+    color: #1a365d;
+    margin-bottom: 20px;
+}
+
+.onsite-ideal-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.onsite-ideal-item {
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.onsite-ideal-item i {
+    color: #ecc94b;
+    font-size: 18px;
+    margin-right: 15px;
+    min-width: 25px;
+}
+
+/* Customization Section */
+.onsite-customization-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.onsite-customization-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.onsite-customization-content h3 {
+    font-size: 1.5rem;
+    color: #1a365d;
+    margin-bottom: 20px;
+}
+
+.onsite-customization-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4a5568;
+    margin-bottom: 20px;
+}
+
+/* Personnel Section */
+.onsite-personnel-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.onsite-personnel-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.onsite-personnel-content h3 {
+    font-size: 1.5rem;
+    color: #1a365d;
+    margin-bottom: 20px;
+}
+
+.onsite-personnel-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4a5568;
+}
+
+/* CTA Section */
+.onsite-cta-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+    color: white;
+    text-align: center;
+}
+
+.onsite-cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.onsite-cta-content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.onsite-cta-content p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.onsite-cta-btn {
+    display: inline-block;
+    background-color: #ecc94b;
+    color: #1a365d;
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.onsite-cta-btn:hover {
+    background-color: #d9b123;
+    transform: translateY(-3px);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .onsite-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .section-title h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .onsite-hero {
+        padding: 100px 0 60px;
+    }
+    
+    .onsite-hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .onsite-hero p {
+        font-size: 1.1rem;
+    }
+    
+    .onsite-intro-section,
+    .onsite-benefits-section,
+    .onsite-ideal-section,
+    .onsite-customization-section,
+    .onsite-personnel-section,
+    .onsite-cta-section {
+        padding: 60px 0;
+    }
+    
+    .section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .onsite-benefit-card {
+        padding: 25px;
+    }
+    
+    .onsite-benefit-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .onsite-hero {
+        padding: 80px 0 50px;
+    }
+    
+    .onsite-hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .onsite-hero p {
+        font-size: 1rem;
+    }
+    
+    .onsite-intro-section,
+    .onsite-benefits-section,
+    .onsite-ideal-section,
+    .onsite-customization-section,
+    .onsite-personnel-section,
+    .onsite-cta-section {
+        padding: 50px 0;
+    }
+    
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+    
+    .onsite-benefit-card {
+        padding: 20px;
+    }
+    
+    .onsite-benefit-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    .onsite-cta-content h2 {
+        font-size: 1.8rem;
+    }
+    
+    .onsite-cta-btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+}
