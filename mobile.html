@@ -11,15 +11,22 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/top.css">
     <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/page-specific.css">
 </head>
 <body>
     <!-- Top Bar -->
-    <div class="top-bar" id="topBar">
-        <div class="container">
-            <div class="top-bar-left">
+<div class="top-bar" id="topBar">
+    <div class="container">
+        <div class="top-bar-left">
+            <div class="nav-brand">
+                <a href="index.html">Ellen Spear Group</a>
+            </div>
+        </div>
+        <div class="top-bar-right">
+            <div class="top-bar-items">
                 <div class="top-bar-item">
                     <i class="fas fa-clock"></i>
-                    <span>24/7 Availability</span>
+                    <span>24/7</span>
                 </div>
                 <div class="top-bar-item phone">
                     <i class="fas fa-phone"></i>
@@ -30,49 +37,44 @@
                     <span>info@ellenspear.com</span>
                 </div>
             </div>
-            <div class="top-bar-right">
-                <button class="btn-estimate">Get Estimate</button>
-            </div>
+            <button class="btn-estimate">Get Estimate</button>
+        </div>
+    </div><button class="hamburger" id="hamburger">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+</div>
+
+<!-- Main Navigation -->
+<nav class="main-nav" id="mainNav">
+    <div class="container">
+        <div class="nav-menu" id="navMenu">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#"><span>Security Services</span> <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="mobile.html">Mobile Patrol</a></li>
+                        <li><a href="onsite.html">On Site Presence</a></li>
+                        <li><a href="alarm.html">Alarm Response</a></li>
+                        <li><a href="vip.html">VIP Protection</a></li>
+                        <li><a href="consult.html">Security Consultation</a></li>
+                        <li><a href="it.html">IT Security</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#contact">Contact Us</a></li>
+                <li class="dropdown">
+                    <a href="#"><span>Company</span> <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
-
-    <!-- Main Navigation -->
-    <nav class="main-nav">
-        <div class="container">
-            <div class="nav-brand">
-                <a href="index.html" style="font-style: bold;">ESG</a>
-            </div>
-            <div class="nav-menu" id="navMenu">
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="dropdown">
-                        <a href="#"><span>Security Services</span> <i class="fas fa-chevron-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="mobile.html">Mobile Patrol</a></li>
-                            <li><a href="onsite.html">On Site Presence</a></li>
-                            <li><a href="alarm.html">Alarm Response</a></li>
-                            <li><a href="vip.html">VIP Protection</a></li>
-                            <li><a href="consult.html">Security Consultation</a></li>
-                            <li><a href="it.html">IT Security</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="index.html#contact">Contact Us</a></li>
-                    <li class="dropdown">
-                        <a href="#"><span>Company</span> <i class="fas fa-chevron-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="careers.html">Careers</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <button class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </nav>
+</nav>
 
     <!-- Hero Section -->
     <section class="mobile-hero">
@@ -253,7 +255,6 @@
             <i class="fas fa-arrow-up"></i>
         </button>
     </footer>
-
     <script src="scripts/footer.js" defer></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/top.js" defer></script>

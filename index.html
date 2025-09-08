@@ -15,37 +15,44 @@
     <link rel="stylesheet" href="styles/top.css">
 </head>
 <body>
-    <!-- Top Bar -->
+<!-- Top Bar -->
 <div class="top-bar" id="topBar">
     <div class="container">
         <div class="top-bar-left">
-            <div class="top-bar-item">
-                <i class="fas fa-clock"></i>
-                <span>24/7 Availability</span>
-            </div>
-            <div class="top-bar-item phone">
-                <i class="fas fa-phone"></i>
-                <span></span>
-            </div>
-            <div class="top-bar-item email">
-                <i class="fas fa-envelope"></i>
-                <span>info@ellenspear.com</span>
+            <div class="nav-brand">
+                <a href="index.html">Ellen Spear Group</a>
             </div>
         </div>
         <div class="top-bar-right">
+            <div class="top-bar-items">
+                <div class="top-bar-item">
+                    <i class="fas fa-clock"></i>
+                    <span>24/7</span>
+                </div>
+                <div class="top-bar-item phone">
+                    <i class="fas fa-phone"></i>
+                    <span>+254 XXX XXX XXX</span>
+                </div>
+                <div class="top-bar-item email">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@ellenspear.com</span>
+                </div>
+            </div>
             <button class="btn-estimate">Get Estimate</button>
         </div>
-    </div>
+    </div><button class="hamburger" id="hamburger">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
 </div>
+
 <!-- Main Navigation -->
-<nav class="main-nav">
+<nav class="main-nav" id="mainNav">
     <div class="container">
-        <div class="nav-brand">
-            <a href="#" style="font-style: bold;">ESG</a>
-        </div>
         <div class="nav-menu" id="navMenu">
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li class="dropdown">
                     <a href="#"><span>Security Services</span> <i class="fas fa-chevron-down"></i></a>
                     <ul class="dropdown-menu">
@@ -57,28 +64,23 @@
                         <li><a href="it.html">IT Security</a></li>
                     </ul>
                 </li>
-                <li><a href="#about">Contact Us</a></li>
+                <li><a href="index.html#contact">Contact Us</a></li>
                 <li class="dropdown">
                     <a href="#"><span>Company</span> <i class="fas fa-chevron-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="about.html">About Us</a></li>
                         <li><a href="careers.html">Careers</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <button class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
     </div>
 </nav>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1 class="typewriter">Integrated Security Solutions</h1>
+            <h1 class="typewriter">Ellen Spear Group</h1>
             <p>Ellen Spear Group combines physical security services with modern IT security solutions to safeguard assets, people, and information in an increasingly complex threat environment. Our hybrid model ensures comprehensive protection for businesses, institutions, and individuals.</p>
             <a href="#about" class="btn-know-more">Know More</a>
         </div>
