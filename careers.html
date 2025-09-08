@@ -3,74 +3,394 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ellen Spear Group - Mobile patrol</title>
+    <title>Ellen Spear Group - Careers</title>
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Lato:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/top.css">
+    <link rel="stylesheet" href="styles/carrers.css">
+    <link rel="stylesheet" href="styles/upload.css">
 </head>
 <body>
     <!-- Top Bar -->
-<div class="top-bar" id="topBar">
-    <div class="container">
-        <div class="top-bar-left">
-            <div class="top-bar-item">
-                <i class="fas fa-clock"></i>
-                <span>24/7 Availability</span>
+    <div class="top-bar" id="topBar">
+        <div class="container">
+            <div class="top-bar-left">
+                <div class="top-bar-item">
+                    <i class="fas fa-clock"></i>
+                    <span>24/7 Availability</span>
+                </div>
+                <div class="top-bar-item phone">
+                    <i class="fas fa-phone"></i>
+                    <span>+254 XXX XXX XXX</span>
+                </div>
+                <div class="top-bar-item email">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@ellenspear.com</span>
+                </div>
             </div>
-            <div class="top-bar-item phone">
-                <i class="fas fa-phone"></i>
+            <div class="top-bar-right">
+                <button class="btn-estimate">Get Estimate</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" style="font-style: bold;">ESG</a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#"><span>Security Services</span> <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="mobile.html">Mobile Patrol</a></li>
+                            <li><a href="onsite.html">On Site Presence</a></li>
+                            <li><a href="alarm.html">Alarm Response</a></li>
+                            <li><a href="vip.html">VIP Protection</a></li>
+                            <li><a href="consult.html">Security Consultation</a></li>
+                            <li><a href="it.html">IT Security</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
+                    <li class="dropdown">
+                        <a href="#"><span>Company</span> <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <button class="hamburger" id="hamburger">
                 <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="careers-hero">
+        <div class="container">
+            <h1>Join the Ellen Spear Group Team</h1>
+            <p>Build a rewarding career in security with a company that values excellence, integrity, and professional growth.</p>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="careers-intro-section">
+        <div class="container">
+            <div class="careers-intro-content">
+                <p>Ellen Spear Group LLC is committed to providing top-tier protection services for businesses, communities, and individuals. We are seeking Unarmed and Armed Security Officers who share our dedication to Excellence, Truth, Principle, and Commitment. If you take pride in creating secure environments, we'd love to hear from you.</p>
             </div>
-            <div class="top-bar-item email">
-                <i class="fas fa-envelope"></i>
-                <span>info@ellenspear.com</span>
+        </div>
+    </section>
+
+    <!-- Why Join Section -->
+    <section class="why-join-section" id="benefits">
+        <div class="section-title">
+            <h2>Why Ellen Spear Group LLC?</h2>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3>Supportive Environment</h3>
+                <p>We prioritize our team members by offering a supportive work environment where your contributions are valued and recognized.</p>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Professional Growth</h3>
+                <p>Access opportunities for continuous learning, skill development, and career advancement within our organization.</p>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Promotion from Within</h3>
+                <p>We believe in recognizing talent and dedication, with clear paths for advancement and promotion from within our team.</p>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Quality Equipment</h3>
+                <p>Work with state-of-the-art security equipment and technology to perform your duties effectively and safely.</p>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Team Culture</h3>
+                <p>Join a team of professionals who share your commitment to excellence and creating safe environments for our clients.</p>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <h3>Flexible Scheduling</h3>
+                <p>We offer flexible scheduling options to help you maintain a healthy work-life balance.</p>
             </div>
         </div>
-        <div class="top-bar-right">
-            <button class="btn-estimate">Get Estimate</button>
+    </section>
+
+    <!-- Positions Section -->
+    <section class="positions-section" id="positions">
+        <div class="container">
+            <div class="positions-content">
+                <div class="position-category">
+                    <h3>Current Openings</h3>
+                    <div class="position-list">
+                        <div class="position-item">
+                            <h4>Unarmed Security Officer</h4>
+                            <p>Provide security services without carrying firearms, focusing on observation, reporting, and customer service.</p>
+                            <ul class="position-features">
+                                <li><i class="fas fa-check"></i> High school diploma or equivalent</li>
+                                <li><i class="fas fa-check"></i> Security license/certification</li>
+                                <li><i class="fas fa-check"></i> Strong observation skills</li>
+                                <li><i class="fas fa-check"></i> Excellent communication abilities</li>
+                            </ul>
+                            <a href="#apply" class="apply-btn">Apply Now</a>
+                        </div>
+
+                        <div class="position-item">
+                            <h4>Armed Security Officer</h4>
+                            <p>Provide armed security services for high-risk environments, requiring additional training and certification.</p>
+                            <ul class="position-features">
+                                <li><i class="fas fa-check"></i> Firearms certification</li>
+                                <li><i class="fas fa-check"></i> Advanced security training</li>
+                                <li><i class="fas fa-check"></i> Clean background check</li>
+                                <li><i class="fas fa-check"></i> Physical fitness requirements</li>
+                            </ul>
+                            <a href="#apply" class="apply-btn">Apply Now</a>
+                        </div>
+
+                        <div class="position-item">
+                            <h4>Security Supervisor</h4>
+                            <p>Lead a team of security officers, coordinate shifts, and ensure quality service delivery.</p>
+                            <ul class="position-features">
+                                <li><i class="fas fa-check"></i> Previous security experience</li>
+                                <li><i class="fas fa-check"></i> Leadership skills</li>
+                                <li><i class="fas fa-check"></i> Management training</li>
+                                <li><i class="fas fa-check"></i> Problem-solving abilities</li>
+                            </ul>
+                            <a href="#apply" class="apply-btn">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-<!-- Main Navigation -->
-<nav class="main-nav">
-    <div class="container">
-        <div class="nav-brand">
-            <a href="#" style="font-style: bold;">ESG</a>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values-section">
+        <div class="container">
+            <div class="values-content">
+                <div class="section-title">
+                    <h2>Our Core Values</h2>
+                </div>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <h4>Excellence</h4>
+                        <p>We strive for the highest standards in all our services and operations, delivering quality protection that exceeds expectations.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <h4>Truth</h4>
+                        <p>We operate with honesty, integrity, and transparency in all our interactions with clients, team members, and the community.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <h4>Principle</h4>
+                        <p>We adhere to strong ethical principles and professional standards that guide our decisions and actions.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <h4>Commitment</h4>
+                        <p>We are dedicated to our clients' safety, our team's success, and our mission of creating secure environments.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="nav-menu" id="navMenu">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="#"><span>Security Services</span> <i class="fas fa-chevron-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="mobile.html">Mobile Patrol</a></li>
-                        <li><a href="onsite.html">On Site Presence</a></li>
-                        <li><a href="alarm.html">Alarm Response</a></li>
-                        <li><a href="vip.html">VIP Protection</a></li>
-                        <li><a href="consult.html">Security Consultation</a></li>
-                        <li><a href="it.html">IT Security</a></li>
-                    </ul>
-                </li>
-                <li><a href="index.html#contact">Contact Us</a></li>
-                <li class="dropdown">
-                    <a href="#"><span>Company</span> <i class="fas fa-chevron-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="abou.html">About Us</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                    </ul>
-                </li>
-            </ul>
+    </section>
+
+    <!-- Application Section -->
+    <section class="application-section" id="apply">
+        <div class="container">
+            <div class="application-content">
+                <h2>Ready to Join Our Team?</h2>
+                <p>Start your career with Ellen Spear Group LLC today. Follow these simple steps to apply:</p>
+                
+                <div class="application-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h4>Review Positions</h4>
+                        <p>Explore our current openings and find the right fit for your skills and experience.</p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h4>Prepare Documents</h4>
+                        <p>Have your resume, certifications, and licenses ready for submission.</p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h4>Submit Application</h4>
+                        <p>Complete our online application form and upload your documents.</p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h4>Interview Process</h4>
+                        <p>Selected candidates will be contacted for interviews and assessments.</p>
+                    </div>
+                </div>
+
+                <a href="#application-form" class="application-btn">Apply Now</a>
+            </div><!-- Application Modal -->
+            <div class="application-modal" id="application-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Apply for Position</h2>
+                        <button class="modal-close">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="application-form">
+                            <div class="application-form">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required>
+                                    <div class="form-error"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <div class="form-error"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                    <div class="form-error"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="position">Position Applying For *</label>
+                                    <select id="position" name="position" required>
+                                        <option value="">Select a position</option>
+                                        <option value="Unarmed Security Officer">Unarmed Security Officer</option>
+                                        <option value="Armed Security Officer">Armed Security Officer</option>
+                                        <option value="Security Supervisor">Security Supervisor</option>
+                                        <option value="Mobile Patrol Officer">Mobile Patrol Officer</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    <div class="form-error"></div>
+                                </div>
+                                
+                                <div class="form-group full-width">
+                                    <label for="cover-letter">Cover Letter</label>
+                                    <textarea id="cover-letter" name="cover-letter" placeholder="Tell us why you're interested in this position and why you'd be a good fit..."></textarea>
+                                </div>
+                                
+                                <div class="form-group full-width">
+                                    <label>Resume/CV *</label>
+                                    <div class="file-upload">
+                                        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required data-preview="resume-preview">
+                                        <div class="file-upload-icon">
+                                            <i class="fas fa-file-upload"></i>
+                                        </div>
+                                        <div class="file-upload-text">Click to upload your resume</div>
+                                        <div class="file-upload-hint">PDF, DOC, or DOCX files (Max 5MB)</div>
+                                    </div>
+                                    <div class="file-preview" id="resume-preview">
+                                        <div class="file-preview-item">
+                                            <div class="file-preview-info">
+                                                <i class="fas fa-file-pdf file-preview-icon"></i>
+                                                <span class="file-preview-name" id="resume-preview-name">No file selected</span>
+                                            </div>
+                                            <button type="button" class="file-preview-remove" id="resume-preview-remove">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="form-error"></div>
+                                </div>
+                                
+                                <div class="form-group full-width">
+                                    <label>Passport Photo</label>
+                                    <div class="file-upload">
+                                        <input type="file" id="photo" name="photo" accept="image/*" data-preview="photo-preview">
+                                        <div class="file-upload-icon">
+                                            <i class="fas fa-camera"></i>
+                                        </div>
+                                        <div class="file-upload-text">Click to upload passport photo</div>
+                                        <div class="file-upload-hint">JPG, PNG files (Max 2MB)</div>
+                                    </div>
+                                    <div class="file-preview" id="photo-preview">
+                                        <div class="file-preview-item">
+                                            <div class="file-preview-info">
+                                                <i class="fas fa-image file-preview-icon"></i>
+                                                <span class="file-preview-name" id="photo-preview-name">No file selected</span>
+                                            </div>
+                                            <button type="button" class="file-preview-remove" id="photo-preview-remove">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group full-width">
+                                    <label>Additional Documents (Certifications, Licenses, etc.)</label>
+                                    <div class="file-upload">
+                                        <input type="file" id="documents" name="documents" multiple data-preview="docs-preview">
+                                        <div class="file-upload-icon">
+                                            <i class="fas fa-file-alt"></i>
+                                        </div>
+                                        <div class="file-upload-text">Click to upload additional documents</div>
+                                        <div class="file-upload-hint">Multiple files allowed (Max 10MB total)</div>
+                                    </div>
+                                    <div class="file-preview" id="docs-preview">
+                                        <div class="file-preview-item">
+                                            <div class="file-preview-info">
+                                                <i class="fas fa-file file-preview-icon"></i>
+                                                <span class="file-preview-name" id="docs-preview-name">No files selected</span>
+                                            </div>
+                                            <button type="button" class="file-preview-remove" id="docs-preview-remove">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-submit">
+                                    <button type="submit" class="submit-btn">Submit Application</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <button class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-    </div>
-</nav>
+    </section>
+
     <!-- Footer Section -->
     <footer class="footer">
         <div class="footer-container">
@@ -101,7 +421,7 @@
                     <h3 class="footer-heading">Contact Us</h3>
                     <div class="footer-contact">
                         <p><i class="fas fa-building"></i> ELLEN SPEAR GROUP</p>
-                        <p><i class="fas fa-phone"></i> +254</p>
+                        <p><i class="fas fa-phone"></i> +254 XXX XXX XXX</p>
                         <p><i class="fas fa-envelope"></i> info@ellenspear.com</p>
                         <p><i class="fas fa-clock"></i> Available 24/7</p>
                     </div>
@@ -113,12 +433,14 @@
             </div>
         </div>
         <!--Scroll to top-->
-    <button class="scroll-top scroll-to-target" data-target="html">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <i class="fas fa-arrow-up"></i>
+        </button>
     </footer>
-        <script src="scripts/footer.js" defer></script>
-        <script src="scripts/main.js"></script>
-        <script src="scripts/top.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/top.js" defer></script>
+    <script src="scripts/carrers.js" defer></script>
+    <script src="scripts/upload.js"></script>
 </body>
 </html>

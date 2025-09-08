@@ -3,74 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ellen Spear Group - Mobile patrol</title>
+    <title>Ellen Spear Group - consoltancy</title>
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Lato:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/top.css">
+    <link rel="stylesheet" href="styles/mobile.css">
 </head>
 <body>
     <!-- Top Bar -->
-<div class="top-bar" id="topBar">
-    <div class="container">
-        <div class="top-bar-left">
-            <div class="top-bar-item">
-                <i class="fas fa-clock"></i>
-                <span>24/7 Availability</span>
+    <div class="top-bar" id="topBar">
+        <div class="container">
+            <div class="top-bar-left">
+                <div class="top-bar-item">
+                    <i class="fas fa-clock"></i>
+                    <span>24/7 Availability</span>
+                </div>
+                <div class="top-bar-item phone">
+                    <i class="fas fa-phone"></i>
+                    <span>+254 XXX XXX XXX</span>
+                </div>
+                <div class="top-bar-item email">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@ellenspear.com</span>
+                </div>
             </div>
-            <div class="top-bar-item phone">
-                <i class="fas fa-phone"></i>
+            <div class="top-bar-right">
+                <button class="btn-estimate">Get Estimate</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" style="font-style: bold;">ESG</a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#"><span>Security Services</span> <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="mobile.html">Mobile Patrol</a></li>
+                            <li><a href="onsite.html">On Site Presence</a></li>
+                            <li><a href="alarm.html">Alarm Response</a></li>
+                            <li><a href="vip.html">VIP Protection</a></li>
+                            <li><a href="consult.html">Security Consultation</a></li>
+                            <li><a href="it.html">IT Security</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
+                    <li class="dropdown">
+                        <a href="#"><span>Company</span> <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <button class="hamburger" id="hamburger">
                 <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="mobile-hero">
+        <div class="container">
+            <h1>Security Consultation Services
+            </h1>
+            <p>Ellen Spear Group’s Security Consultation Services offer expert guidance to identify vulnerabilities, assess threats, and design tailored security strategies.</p>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <p>Our consultants work closely with you to enhance protection through planning, evaluation, and professional insight..</p>
             </div>
-            <div class="top-bar-item email">
-                <i class="fas fa-envelope"></i>
-                <span>info@ellenspear.com</span>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section" id="benefits">
+        <div class="section-title">
+            <h2>Core Benefits of security Consultation:</h2>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h3>Comprehensive Risk Assessment</h3>
+                <p>We analyze your property, operations, and policies to uncover weak points and threat exposures.</p>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-sliders-h"></i>
+                </div>
+                <h3>Custom Security Planning</h3>
+                <p> Each plan is built to your site’s unique needs—from access control to surveillance design and personnel deployment.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <h3>Regulatory & Compliance Support</h3>
+                <p> Ensure your security systems and practices meet industry standards and local requirements.</p>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-clipboard-list"></i>
+                </div>
+                <h3>Incident Response Preparedness</h3>
+                <p>Receive detailed digital reports documenting patrol activity, observations, and any security concerns.</p>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-dollar-sign"></i>
+                </div>
+                <h3>Cost-Effective Alternative</h3>
+                <p>Get effective security coverage without the cost of full-time, on-site personnel.</p>
             </div>
         </div>
-        <div class="top-bar-right">
-            <button class="btn-estimate">Get Estimate</button>
+    </section>
+
+    <!-- Ideal For Section -->
+    <section class="ideal-section">
+        <div class="container">
+            <div class="ideal-content">
+                <h3>Ideal For:</h3>
+                <p>
+                    Security Consultation Services are ideal for new developments, expanding businesses, high-risk industries, schools, corporate campuses, and any organization seeking to improve their protective posture.</p>
+                
+                </div>
         </div>
-    </div>
-</div>
-<!-- Main Navigation -->
-<nav class="main-nav">
-    <div class="container">
-        <div class="nav-brand">
-            <a href="index.html" style="font-style: bold;">ESG</a>
+    </section>
+
+    <!-- Strategy Section -->
+    <section class="strategy-section">
+        <div class="container">
+            <div class="strategy-content">
+                <h3>Collaborative & Confidential Process:</h3>
+                <p>We work alongside your internal stakeholders to align security goals with operational realities—delivering confidential reports, phased strategies, and support through implementation.</p>
+            </div>
         </div>
-        <div class="nav-menu" id="navMenu">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="#"><span>Security Services</span> <i class="fas fa-chevron-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="mobile.html">Mobile Patrol</a></li>
-                        <li><a href="onsite.html">On Site Presence</a></li>
-                        <li><a href="alarm.html">Alarm Response</a></li>
-                        <li><a href="vip.html">VIP Protection</a></li>
-                        <li><a href="consult.html">Security Consultation</a></li>
-                        <li><a href="it.html">IT Security</a></li>
-                    </ul>
-                </li>
-                <li><a href="index.html#contact">Contact Us</a></li>
-                <li class="dropdown">
-                    <a href="#"><span>Company</span> <i class="fas fa-chevron-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="abou.html">About Us</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                    </ul>
-                </li>
-            </ul>
+    </section>
+
+    <!-- Personnel Section -->
+    <section class="personnel-section">
+        <div class="container">
+            <div class="personnel-content">
+                <h3>Experienced Security Advisors:</h3>
+                <p>Our consultants bring backgrounds in military, law enforcement, and corporate security management. With Foundation Security, you gain a partner who understands protection from every angle.</p>
+            </div>
         </div>
-        <button class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-    </div>
-</nav>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Get ideal security consultation today.</h2>
+                <p>Contact us today to discuss your security needs and get a customized mobile patrol solution.</p>
+                <a href="index.html#contact" class="cta-btn">Get Started</a>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer Section -->
     <footer class="footer">
         <div class="footer-container">
@@ -101,7 +212,7 @@
                     <h3 class="footer-heading">Contact Us</h3>
                     <div class="footer-contact">
                         <p><i class="fas fa-building"></i> ELLEN SPEAR GROUP</p>
-                        <p><i class="fas fa-phone"></i> +254</p>
+                        <p><i class="fas fa-phone"></i> +254 XXX XXX XXX</p>
                         <p><i class="fas fa-envelope"></i> info@ellenspear.com</p>
                         <p><i class="fas fa-clock"></i> Available 24/7</p>
                     </div>
@@ -113,12 +224,14 @@
             </div>
         </div>
         <!--Scroll to top-->
-    <button class="scroll-top scroll-to-target" data-target="html">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <i class="fas fa-arrow-up"></i>
+        </button>
     </footer>
-        <script src="scripts/footer.js" defer></script>
-        <script src="scripts/main.js"></script>
-        <script src="scripts/top.js" defer></script>
+
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/top.js" defer></script>
+    <script src="scripts/mobile.js" defer></script>
 </body>
 </html>
